@@ -81,7 +81,7 @@ overlay {  /*positioning ng feedback*/
     background-position: center;
     border-radius: 10px;
     overflow: hidden;
-    background-image: url('/images/feedback img.png');
+    background-image: url('images/feedback\ img.png');
     border: 2px solid #d66920;
 }
 
