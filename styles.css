@@ -66,7 +66,7 @@ overlay {  /*positioning ng feedback*/
     padding: 40px 20px;
     max-width: 1400px;
     margin: 0 auto;
-    
+    margin-top: 1000px;
 }
 
 .overlay-container1,
