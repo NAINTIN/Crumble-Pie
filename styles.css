@@ -25,6 +25,7 @@ body{
     align-items: center;
     padding: 0px 0px 0px 0px;
     top: 0%;
+    position:sticky;
 }
 
 .navbar img {
