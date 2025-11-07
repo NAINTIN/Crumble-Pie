@@ -9,46 +9,108 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Tauri', sans-serif;
 
     background: 
-    linear-gradient(rgba(255, 239, 195, 0.9), rgba(255, 239, 195, 0.9)), /* light overlay */
-    url('images/BG\ HOME.jpg') no-repeat center center;
-    background-size: 1500px;
+    linear-gradient(rgba(255, 217, 164, 0.7), rgba(255, 217, 164, 0.7)), 
+    url('images/BG2.png') no-repeat center center;
+    background-size: 1280px;
     background-position: 100px 200px 100px 200px;
     background-attachment: fixed;
 }
 
 .navbar{
+    position: sticky;
+    top: 0;
+    background-color: #FFF4E4;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0px 0px 0px;
-    top: 0%;
-    position:sticky;
+    height: 55px;
+    padding: 0 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    z-index: 100;
 }
 
 .navbar img {
-    width: 225px;
-    display: flex;
-    margin-top: -50px;
-    margin-left: 30px;
-    transform:translateY(-17px);
+    width: 160px;
+    position:absolute;
+    top: -49px;
+    left: 10px;
+    height: auto;
+    display: block;
 }
 
 .nav-links {
-    display: inline-flex;
-    gap: 35px;
+    position: absolute;
+    top: 19px;        
+    left: 50%;                   
+    transform: translateX(-50%);
+    display: flex;
     list-style: none;
-    transform:translateY(-40px);
-    margin-right: 60px;
+    gap: 45px;
 }
 
-
 .nav-links li a {
+    font-family: 'Tauri', sans-serif;
     text-decoration: none;
+    color: #BE670C;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #8b4709;
+}
+
+.hero-section h1{
+        font-family: 'Agdasima', sans-serif;
+        text-align:center;        
+        font-size: 150px;
+        font-weight: 600;
+        color: #FFF4E4;
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        text-shadow: 
+            -1px -1px 0px #A75D2D,
+             2px -1px 0px #A75D2D,
+            -1px 1px 0px #A75D2D,
+            1px 1px 0px #A75D2D;
+        line-height: 1;
+}
+
+.hero-section p{
+        font-family: 'Alkatra', cursive;
+        text-align:center;    
+        font-size: 50px;
+        color: #f4c430;
+        font-weight: 300;
+        margin-bottom: -30px;
+            text-shadow: 
+            -1px -1px 0px #d4691b,
+            1px -1px 0px #d4691b,
+            -1px 1px 0px #d4691b,
+            1px 1px 0px #d4691b;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+.order-btn {
+    text-transform: uppercase;
+    background-color: #FFC013;
     color: #563731;
-    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #BE670C;
+    color: #FFF4E4;
 }
 
 #CONTACT a {    
@@ -57,7 +119,6 @@ body{
     padding: 5px 20px;
     border-radius: 10px;
 }
-
 
 overlay {  /*positioning ng feedback*/
     display: flex;
@@ -109,12 +170,10 @@ overlay {  /*positioning ng feedback*/
 }
 
 .dropdown-content a {
-
     color:black;
 }
 
 .dropdown-content {
-
     display: none;
     position:absolute;
     top: 25px;
@@ -125,18 +184,12 @@ overlay {  /*positioning ng feedback*/
 }
 
 #dropdown:hover > .dropdown-content {
-
     display:block;
 }
 
 .nav-links li a:hover {
-
     color: #c66b0c;
     
-}
-
-.hero-section h1{
-    font-size: 70px;
 }
 
 
