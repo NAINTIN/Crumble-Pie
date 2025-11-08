@@ -290,6 +290,82 @@ overlay {  /*positioning ng feedback*/
     display:block;
 }
 
+/* ---------------- MENU SECTION ---------------- */
+.menu{
+    background: #FFF4E4;
+    color: #4a2b00;
+    height: 90vh;
+    display: flex;
+  flex-direction: column; /* keeps tagline + links vertical */
+  justify-content: center; /* center vertically */
+  align-items: center; /* center horizontally */
+  text-align: center; /* center text */
+}
+
+.tagline {
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #563731;
+  line-height: 1;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 25px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-item img {
+  width: 80px;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.menu-item:hover img {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
+.menu-item p {
+  position: relative;
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.menu-item p::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #f5b400;
+  transition: width 0.3s ease;
+}
+
+.menu-item:hover p::after {
+  width: 40%;
+}
+
+.divider {
+  width: 1.8px;
+  height: 100px;
+  background: #c7a86a;
+}
 
 
 
