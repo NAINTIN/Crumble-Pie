@@ -337,7 +337,7 @@ overlay .five-stars {
     position: absolute;
     left: 30%;
     top: 10%; 
-    
+    background-position: 40% 45%; 
 }
 
 .overlay-container2 {
