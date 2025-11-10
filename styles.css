@@ -112,7 +112,7 @@ body{
 
 .nav-right {
     margin-left: auto;
-    margin-top: 11px;
+    margin-top: 20px;
     margin-right: 18px; 
     display: flex;
     align-items: center;
@@ -132,6 +132,8 @@ body{
     transform: scale(1);
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    
+    
 }
 
 @keyframes wiggle {
@@ -646,10 +648,17 @@ overlay .five-stars {
   margin-bottom: -7.5rem; /* -120px */
 }
 
+.view-button {
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .view-menu-btn {
   position: absolute;
   left: 50%;
-  top: 298%;
+  top: 20vh;
   transform: translate(-50%, -50%);
   background: #F1B102;
   color: #563731;
