@@ -468,9 +468,10 @@ overlay .five-stars {
 .bestsellers p {
   color: #BE670C;
   font-size: 1.2rem; 
-  letter-spacing: 0.0625rem; 
+  letter-spacing: 0.0125rem; 
   margin-bottom: 2rem; 
   font-family: 'Tauri', sans-serif;
+  letter-spacing: normal;
 }
 
 /* --- Layout container --- */
@@ -481,11 +482,11 @@ overlay .five-stars {
   gap: 4rem; 
 }
 
-/* Each bestseller group */
+/* Each bestseller group */ /*dito yunn*/
 .bestseller-item {
   position: relative;
-  width: 15.625rem;
-  height: 18rem; 
+  width: 17.4rem;
+  height: 22rem; 
 }
 
 /* Cards (default state) */
@@ -504,26 +505,35 @@ overlay .five-stars {
   width: 100%;
   border-radius: 0.625rem; 
   margin-bottom: 0.625rem; 
+  display: block;
+  margin: 0 auto;
+  transform: scale(1.2); 
+
 }
 
 .card h3 {
-  font-size: 1.1rem; 
-  color: #4a2b00;
+  font-size: 1.3rem; 
+  color: #BE670C;
   font-family: 'Agdasima', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  margin-top: 1.5rem; 
 }
 
 .card p {
-  font-size: 0.75rem; 
+  font-size: 0.95rem; 
   color: #6e4c00;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.80rem; 
+  font-weight: 430;
+ 
+
 }
 
-/* Info boxes (hover state) */
+
 .info-box {
   background: #FFF0DA;
-  border-radius: 0.625rem; 
+  border-radius: 2rem; 
   box-shadow: 0 0.375rem 0.9375rem rgba(0,0,0,0.15); 
   padding: 2rem 2.5rem; 
   display: flex;
@@ -535,8 +545,8 @@ overlay .five-stars {
   pointer-events: none;
   transition: all 0.4s ease;
   position: absolute;
-  width: 30rem; 
-  height: 18rem; 
+  width: 31.5rem; 
+  height: 22rem; 
   overflow: visible;
 }
 
@@ -552,60 +562,97 @@ overlay .five-stars {
 }
 
 .info-box img {
-  width: 15.625rem; 
-  height: 15.625rem;
+  width: 18.1rem; 
+  height: 18.1rem;
   border-radius: 0.75rem; 
   object-fit: cover;
   display: block;
-  margin: 0 -20%;
+  margin: 0 -23%;
 }
 
 .info-text h3 {
   color: #8b4a00;
-  font-size: 1.25rem; 
+  font-size: 1.7rem; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0.625rem 0 1.25rem; 
   text-transform: uppercase;
+  font-family: 'Agdasima', sans-serif;
+  position: relative;
+  top: -27px;
 }
 
 .info-text h4 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   color: #FFBB00;
-  margin: 0.4rem 0;
   font-weight: 600;
-  padding: 0 1.5625rem 0 1.25rem; /* 0 25px 0 20px */
+  font-size: 1.3rem;
+  font-family: 'Agdasima', sans-serif;
+  padding: 0 1.5625rem 0 1.25rem;
+  position: relative;
+  top: -30px; 
 }
 
+
 .info-text p {
-  font-size: 0.9375rem; /* 15px */
-  color: #5a3900;
-  max-width: 17.5rem; /* 280px */
-  padding: 0 2.5rem 0 1.25rem; /* 0 40px 0 20px */
-  text-align: start;
+  font-size: 1.2rem;
+  color: #563731;
+  max-width: 17.5rem;
   font-family: "Roboto", sans-serif;
+  padding: 0 2.5rem 0 1.25rem;
+  text-align-last: center;
+  position: relative;
+  top: -25px; 
+}
+
+/*  both pies */
+.info-text h3, 
+.info-text h4, .info-text p {
+  margin: 0.4rem 0;
+}
+
+/* AWP (title left, price right) */
+.apple-info .info-text h3,
+.apple-info .info-text h4,
+.apple-info .info-text p {
+  flex-direction: row;
+  text-align: left;
+  padding: 0 1.8rem 0 0;
+}
+
+/* FAP (title right, price left) */
+.french-info .info-text h3,
+.french-info .info-text h4,
+.french-info .info-text p {
+  flex-direction: row-reverse; 
+  text-align: right;
+  padding: 0 0 0 1.8rem;
+}
+
+
+
+.french-info .info-text {
+  padding-left: 3rem;
+  padding-right: 0;
 }
 
 .order-btn2 {
   background: #F1B102;
   color: #563731;
   border: none;
-  border-radius: 1.25rem; /* 20px */
-  padding: 0.625rem 1.5rem; /* 10px 24px */
+  border-radius: 20px;
+  padding: 10px 24px;
   font-weight: 600;
   cursor: pointer;
-  margin-top: -0.625rem; /* -10px */
+  margin-top: 10px;
   transition: all 0.3s ease;
-  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.15); /* 0 4px 8px */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .order-btn2:hover {
   background: #ffb800;
-  transform: translateY(-0.125rem); /* -2px */
-  box-shadow: 0 0.375rem 0.75rem rgba(0,0,0,0.25); /* 0 6px 12px */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
 
 /* --- Hover Behavior --- */
