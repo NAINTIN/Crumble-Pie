@@ -341,8 +341,6 @@ overlay .five-stars {
 }
 
 .overlay-container2 {
-    
-    
     position:absolute;
     left: 38%;
     top: 10%;
@@ -351,9 +349,6 @@ overlay .five-stars {
     background-image: url('images/french-sliced.jpg');
     
 }
-
-
-
 
 
 #dropdown{
@@ -455,6 +450,226 @@ overlay .five-stars {
   background: #c7a86a;
 }
 
+/* --- Best Sellers Section --- */
+.bestsellers {
+  text-align: center;
+  padding: 3.125rem 6.25rem 0 6.25rem; 
+  background: #FFEACD;
+  font-family: 'Agdasima', sans-serif;
+}
+
+.bestsellers h2 {
+  font-size: 3rem; 
+  margin-bottom: 0.3rem; 
+  color: #563731;
+}
+
+.bestsellers p {
+  color: #BE670C;
+  font-size: 1.2rem; 
+  letter-spacing: 0.0625rem; 
+  margin-bottom: 2rem; 
+  font-family: 'Tauri', sans-serif;
+}
+
+/* --- Layout container --- */
+.bestseller-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem; 
+}
+
+/* Each bestseller group */
+.bestseller-item {
+  position: relative;
+  width: 15.625rem;
+  height: 18rem; 
+}
+
+/* Cards (default state) */
+.card {
+  background: #FFF0DA;
+  border-radius: 0.1875rem; 
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.1); 
+  padding: 3.125rem; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  inset: 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.625rem; 
+  margin-bottom: 0.625rem; 
+}
+
+.card h3 {
+  font-size: 1.1rem; 
+  color: #4a2b00;
+  font-family: 'Agdasima', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.card p {
+  font-size: 0.75rem; 
+  color: #6e4c00;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Info boxes (hover state) */
+.info-box {
+  background: #FFF0DA;
+  border-radius: 0.625rem; 
+  box-shadow: 0 0.375rem 0.9375rem rgba(0,0,0,0.15); 
+  padding: 2rem 2.5rem; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem; 
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+  transition: all 0.4s ease;
+  position: absolute;
+  width: 30rem; 
+  height: 18rem; 
+  overflow: visible;
+}
+
+/* Apple info on the left */
+.apple-info {
+  right: 0%;
+  flex-direction: row-reverse;
+}
+
+/* French info on the right */
+.french-info {
+  left: 0%;
+}
+
+.info-box img {
+  width: 15.625rem; 
+  height: 15.625rem;
+  border-radius: 0.75rem; 
+  object-fit: cover;
+  display: block;
+  margin: 0 -20%;
+}
+
+.info-text h3 {
+  color: #8b4a00;
+  font-size: 1.25rem; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.625rem 0 1.25rem; 
+  text-transform: uppercase;
+}
+
+.info-text h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFBB00;
+  margin: 0.4rem 0;
+  font-weight: 600;
+  padding: 0 1.5625rem 0 1.25rem; /* 0 25px 0 20px */
+}
+
+.info-text p {
+  font-size: 0.9375rem; /* 15px */
+  color: #5a3900;
+  max-width: 17.5rem; /* 280px */
+  padding: 0 2.5rem 0 1.25rem; /* 0 40px 0 20px */
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+}
+
+.order-btn {
+  background: #F1B102;
+  color: #563731;
+  border: none;
+  border-radius: 1.25rem; /* 20px */
+  padding: 0.625rem 1.5rem; /* 10px 24px */
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: -0.625rem; /* -10px */
+  transition: all 0.3s ease;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.15); /* 0 4px 8px */
+}
+
+.order-btn:hover {
+  background: #ffb800;
+  transform: translateY(-0.125rem); /* -2px */
+  box-shadow: 0 0.375rem 0.75rem rgba(0,0,0,0.25); /* 0 6px 12px */
+}
+
+/* --- Hover Behavior --- */
+.bestseller-item:hover .card {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.apple-item:hover .apple-info {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: all;
+}
+
+.french-item:hover .french-info {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: all;
+}
+
+.signature {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.signature h2 {
+  font-size: 9.375rem; /* 150px */
+  font-weight: 600;
+  font-family: 'Agdasima', sans-serif;
+  color: #fff4e4;
+  letter-spacing: 0.75rem; /* 12px */
+  text-transform: uppercase;
+  bottom: -3.75rem; /* -60px */
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  margin-top: 1.25rem; /* 20px */
+  margin-bottom: -7.5rem; /* -120px */
+}
+
+.view-menu-btn {
+  position: absolute;
+  left: 50%;
+  top: 298%;
+  transform: translate(-50%, -50%);
+  background: #F1B102;
+  color: #563731;
+  border: none;
+  border-radius: 50%;
+  width: 6.25rem; /* 100px */
+  height: 6.25rem;
+  font-weight: 700;
+  font-size: 1.25rem; /* 20px */
+  cursor: pointer;
+  box-shadow: 0 0.375rem 0.75rem rgba(0,0,0,0.2); /* 0 6px 12px */
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.view-menu-btn:hover {
+  background: #ffb800;
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 0.625rem 1.125rem rgba(0,0,0,0.25); /* 0 10px 18px */
+}
 
 
 
