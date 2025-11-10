@@ -112,7 +112,7 @@ body{
 
 .nav-right {
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-right: 18px; 
     display: flex;
     align-items: center;
@@ -132,8 +132,6 @@ body{
     transform: scale(1);
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-    
-    
 }
 
 @keyframes wiggle {
@@ -148,7 +146,8 @@ body{
 .order-btn:hover {
     background-color: #BE670C;
     color: #FFF4E4;
-    animation: wiggle 0.5s ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .hero-section {
@@ -438,12 +437,12 @@ overlay .five-stars {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #f5b400;
+  background-color: #e89d08;
   transition: width 0.3s ease;
 }
 
 .menu-item:hover p::after {
-  width: 40%;
+  width: 90%;
 }
 
 .divider {
@@ -590,7 +589,7 @@ overlay .five-stars {
   font-family: "Roboto", sans-serif;
 }
 
-.order-btn {
+.order-btn2 {
   background: #F1B102;
   color: #563731;
   border: none;
@@ -603,7 +602,7 @@ overlay .five-stars {
   box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.15); /* 0 4px 8px */
 }
 
-.order-btn:hover {
+.order-btn2:hover {
   background: #ffb800;
   transform: translateY(-0.125rem); /* -2px */
   box-shadow: 0 0.375rem 0.75rem rgba(0,0,0,0.25); /* 0 6px 12px */
