@@ -297,46 +297,52 @@ body{
 }
 
 overlay {
+
+    flex-direction: row-reverse;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px 100px;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #FFF4E4;
     position: relative;
-    padding:150px;
+    padding:170px 170px 700px 170px;;
     margin-top: 50vh;
 }
 
 overlay .FOOD-LOVERS {
     display:flex;
     position:absolute;
-    left: 15%;
-    top: 20%;
+    left: 9%;
+    top: 9%;
     color: #FFBB00;
     font-family: "Agdasima", sans-serif;
     font-weight:bold;
     font-size: 32px;
+    
 }
 
 overlay #Satisfied {
     display:flex;
-    top: 30%;
+    top: 14%;
     position:absolute;
-    left: 15%;
+    left: 9%;
     color: #563731;
     font-family: "Agdasima", sans-serif;
     font-weight:bold;
-    font-size: 40px;
+    font-size: 44px;
+    line-height: 0.8;
 
 }
 
- overlay .name-feed {    
+ overlay .name-feed {
+
+    
     position: absolute;
-    right: 35%;
-    top: 10%;
-    transform: rotate(-90deg) translateX(-50%);
+    right: 37%;
+    top: 24.5%;
+    transform: rotate(90deg) translateX(50%);
     transform-origin: center;
     font-size: 1.8rem;
     font-family: "Agdasima", sans-serif;
@@ -344,25 +350,70 @@ overlay #Satisfied {
     color: #FFBB00;
     white-space: nowrap;
     margin: 0;
+   
+}
+
+overlay .name-feed1 {
+    position: absolute;
+    right: 54%;
+    top: 79%;
+    transform: rotate(-90deg) translateX(50%);
+    transform-origin: center;
+    font-size: 1.8rem;
+    font-family: "Agdasima", sans-serif;
+    font-weight: bold;
+    color: #FFBB00;
+    white-space: nowrap;
+    margin: 0;
+
 }
 
 overlay .Line {
+
     display:flex;
     position: absolute;
     background-color:#A75D2D;
     width: 1px;
-    height: 230px;
-    right: 40%;
-    top: 10%;
+    height: 200px;
+    right: 47%;
+    top: 25%;
 }
 
-overlay .DESC {
+overlay .Line1{
+
+    display:flex;
+    position: absolute;
+    background-color:#A75D2D;
+    width: 1px;
+    height: 200px;
+    right: 57.5%;
+    top: 59%;
+
+}
+
+overlay .DESC  {
 
     display:flex;
     position:absolute;
-    left: 63%;
-    top: 28%;
+    left: 28%;
+    right: auto;
+    top: 27%;
     font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: right;
+}
+
+overlay .DESC1 {
+    display:flex;
+    position:absolute;
+    left: 46%;
+    right: auto;
+    top: 61%;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
 }
 
 overlay .five-stars {
@@ -371,24 +422,43 @@ overlay .five-stars {
     position:absolute;
     background-color:#FFC013;
     max-width: 500px;
-    border-radius:10px;
-    top: 60%;
-    right: 31.5%;
-    padding-left:1vh;
-    padding-right:1vh;
-    padding-top:1vh;
+    border-radius:15px;
+    top: 40%;
+    right: 50%;
+    padding-left:1.5vh;
+    padding-right:1.5vh;
+    padding-top:0.5vh;
     padding-bottom: 1vh;
+
 }
 
+overlay .five-stars1 {
+    display:flex;
+    color:white;
+    position:absolute;
+    background-color:#FFC013;
+    max-width: 500px;
+    border-radius:15px;
+    top: 74%;
+    right: 48%;
+    padding-left:1.5vh;
+    padding-right:1.5vh;
+    padding-top:0.5vh;
+    padding-bottom: 1vh;
+
+}
+
+
+
 .overlay-container1,
-.overlay-container2       /*size ng box container ng feedback*/
+.overlay-container2     /*size ng box container ng feedback*/
 {   
     display:flex;   
     flex-wrap: wrap;
     position: relative;
     width: 179.90px;
-    max-width: 300px; 
-    height: 218.29px;
+    max-width: 500px; 
+    height: 217.29px;
     background-size: cover;
     overflow: hidden;
     background-image: url('images/pie-coffee.jpg');
@@ -398,23 +468,217 @@ overlay .five-stars {
     
 }   
 
+
+
 .overlay-container1 {
     transform: rotate(-3deg) scale(1);
     z-index: 2;
     position: absolute;
-    left: 30%;
-    top: 10%; 
+    left: 65%;
+    top: 25%; 
     background-position: 40% 45%; 
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-container1:hover {
+
+    transform: translateY(-15px) scale(1.10);
 }
 
 .overlay-container2 {
     position:absolute;
-    left: 38%;
-    top: 10%;
+    left: 71%;
+    top: 25%;
     transform: rotate(15deg);
     z-index: 1;
     background-image: url('images/french-sliced.jpg');
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     
+}
+
+.overlay-container2:hover{
+
+    transform: translateY(-15px) scale(1.10);
+    z-index: 2;
+}
+
+.overlay-container3 {
+
+   display:flex;   
+    flex-wrap: wrap;
+    position: relative;
+    width: 179.90px;
+    max-width: 500px; 
+    height: 217.29px;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url('images/pie-coffee.jpg');
+    border: 10px solid #FFDCAA;
+    border-bottom: 30px solid #FFDCAA;
+    margin-right: 100px;
+    transform: rotate(-3deg) scale(1);
+    z-index: 2;
+    position: absolute;
+    left: 12%;
+    top: 55%; 
+    background-position: 40% 45%; 
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-container3:hover {
+  transform: translateY(-15px) scale(1.10);
+}
+
+.overlay-container4 {
+    display:flex;   
+    flex-wrap: wrap;
+    position: relative;
+    width: 179.90px;
+    max-width: 500px; 
+    height: 217.29px;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url('images/pie-coffee.jpg');
+    border: 10px solid #FFDCAA;
+    border-bottom: 30px solid #FFDCAA;
+    margin-right: 100px;
+    position:absolute;
+    left: 18%;
+    top: 55%;
+    transform: rotate(15deg);
+    z-index: 1;
+    background-image: url('images/french-sliced.jpg');
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-container4:hover{
+
+    transform: translateY(-15px) scale(1.10);
+    z-index: 2;
+}
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #F1B102;
+    position: relative;
+    padding:170px 170px 700px 170px;;
+    margin-top: -8vh;
+    border-radius: 50% 50% 0 0 / 50px 50px 0 0;
+    padding: 60px 40px 40px;
+    
+}
+
+
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 100px;
+  max-width: 100%;
+  position:relative;
+  gap: 100px;
+  top: -25px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-top: 8vh;
+  
+
+}
+
+.footer-column h3 {
+  font-family: "Agdasima", sans-serif;
+  font-size: 20px;
+  color: #563731;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.footer-column p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #A75D2D;
+  line-height: 1.6;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  color: #2c2c2c;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  background-color: #FFE3BB;
+}
+
+.social-icons a:hover {
+  background-color: #f0f0f0;
+}
+
+.delivery-text{
+  font-family: "Agdasima", sans-serif;
+  position:absolute;
+  top: 15%;
+  color: #563731;
+}
+
+.foot-line {
+  position:absolute;
+  width:100%;
+  height:1px;
+  background-color: #A75D2D;
+  top: 75%;
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  position:absolute;
+  top: 75%;
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #A75D2D;
+  font-size: 15px;
+}
+
+.trademark {
+  font-family: 'Roboto', sans-serif;
+  color: #A75D2D;
+  font-size: 15px;
+  margin-left: 35vh;
+ 
 }
 
 #dropdown{
