@@ -303,7 +303,7 @@ overlay {
     align-items: center;
     justify-content: space-between;
     padding: 60px 100px;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #FFF4E4;
     position: relative;
@@ -559,6 +559,121 @@ overlay .five-stars1 {
 
     transform: translateY(-15px) scale(1.10);
     z-index: 2;
+}
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #F1B102;
+    position: relative;
+    padding:170px 170px 700px 170px;;
+    margin-top: -8vh;
+    border-radius: 50% 50% 0 0 / 50px 50px 0 0;
+    padding: 60px 40px 40px;
+    
+}
+
+
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 100px;
+  max-width: 100%;
+  position:relative;
+  gap: 100px;
+  top: -25px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-top: 8vh;
+  
+
+}
+
+.footer-column h3 {
+  font-family: "Agdasima", sans-serif;
+  font-size: 20px;
+  color: #563731;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.footer-column p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #A75D2D;
+  line-height: 1.6;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  color: #2c2c2c;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  background-color: #FFE3BB;
+}
+
+.social-icons a:hover {
+  background-color: #f0f0f0;
+}
+
+.delivery-text{
+  font-family: "Agdasima", sans-serif;
+  position:absolute;
+  top: 15%;
+  color: #563731;
+}
+
+.foot-line {
+  position:absolute;
+  width:100%;
+  height:1px;
+  background-color: #A75D2D;
+  top: 75%;
+}
+
+.footer-bottom {
+  display:flex;
+  position:absolute;
+  gap: 50px;
+  left:23%;
+  top: 80%;
+  font-family: 'Roboto', sans-serif;
+  color: #A75D2D;
+  font-size: 15px;
+}
+
+.trademark {
+
+  position:absolute;
+  top: 80%;
+  right: 23%;
+  font-family: 'Roboto', sans-serif;
+  color: #A75D2D;
+  font-size: 15px;
+
 }
 
 #dropdown{
