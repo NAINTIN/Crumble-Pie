@@ -654,26 +654,31 @@ footer {
   top: 75%;
 }
 
-.footer-bottom {
-  display:flex;
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
   position:absolute;
+  top: 75%;
+}
+
+.footer-bottom {
+  display: flex;
   gap: 50px;
-  left:23%;
-  top: 80%;
   font-family: 'Roboto', sans-serif;
   color: #A75D2D;
   font-size: 15px;
 }
 
 .trademark {
-
-  position:absolute;
-  top: 80%;
-  right: 23%;
   font-family: 'Roboto', sans-serif;
   color: #A75D2D;
   font-size: 15px;
-
+  margin-left: 35vh;
+ 
 }
 
 #dropdown{
