@@ -526,21 +526,21 @@ overlay .five-stars {
 }
 
 .bestsellers h2 {
-  font-size: 3.3rem; 
+  font-size: 3.5rem; 
   margin-bottom: 0.2rem; 
   color: #563731;
 }
 
 .bestsellers p {
   color: #BE670C;
-  font-size: 1.2rem; 
+  font-size: 1.3rem; 
   letter-spacing: 0.0125rem; 
   margin-bottom: 2rem; 
   font-family: 'Tauri', sans-serif;
   letter-spacing: normal;
 }
 
-/* --- Layout container --- */
+
 .bestseller-container {
   display: flex;
   justify-content: center;
@@ -548,19 +548,19 @@ overlay .five-stars {
   gap: 4rem; 
 }
 
-/* Each bestseller group */ /*dito yunn*/
+/* both sa bestseller group */ /*dito yunn*/
 .bestseller-item {
   position: relative;
-  width: 17.4rem;
-  height: 22rem; 
+  width: 17.55rem;
+  height: 21.65rem; 
 }
 
-/* Cards (default state) */
+/*default state*/
 .card {
   background: #FFF0DA;
   border-radius: 0.1875rem; 
-  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.1); 
-  padding: 3.125rem; 
+  box-shadow: 0 0.15rem 0.15rem rgba(0,0,0,0.1); 
+  padding: 0.9rem; 
   cursor: pointer;
   transition: all 0.3s ease;
   position: absolute;
@@ -568,39 +568,34 @@ overlay .five-stars {
 }
 
 .card img {
-  width: 100%;
+  width: 85%;
   border-radius: 0.625rem; 
   margin-bottom: 0.625rem; 
   display: block;
   margin: 0 auto;
-  transform: scale(1.2); 
-
 }
 
 .card h3 {
-  font-size: 1.3rem; 
+  font-size: 1.8rem; 
   color: #BE670C;
   font-family: 'Agdasima', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  margin-top: 1.5rem; 
+  letter-spacing: 0rem;
+  margin-top: 7px;
 }
 
 .card p {
-  font-size: 0.95rem; 
+  font-size: 0.9rem; 
   color: #6e4c00;
   font-family: 'Roboto', sans-serif;
-  margin-top: 0.80rem; 
-  font-weight: 430;
- 
-
+  margin-top: 0.70rem;  
 }
 
 
 .info-box {
   background: #FFF0DA;
   border-radius: 2rem; 
-  box-shadow: 0 0.375rem 0.9375rem rgba(0,0,0,0.15); 
+  box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.12); 
   padding: 2rem 2.5rem; 
   display: flex;
   align-items: center;
@@ -611,8 +606,8 @@ overlay .five-stars {
   pointer-events: none;
   transition: all 0.4s ease;
   position: absolute;
-  width: 31.5rem; 
-  height: 22rem; 
+  width: 31.2rem; 
+  height: 21.65rem; 
   overflow: visible;
 }
 
@@ -637,38 +632,37 @@ overlay .five-stars {
 }
 
 .info-text h3 {
-  color: #8b4a00;
-  font-size: 1.7rem; 
   display: flex;
+  color: #BE670C;
+  font-size: 2rem; 
   justify-content: space-between;
   align-items: center;
   padding: 0 0.625rem 0 1.25rem; 
   text-transform: uppercase;
   font-family: 'Agdasima', sans-serif;
   position: relative;
-  top: -27px;
+  top: -6px;
 }
 
 .info-text h4 {
   color: #FFBB00;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.47rem;
   font-family: 'Agdasima', sans-serif;
   padding: 0 1.5625rem 0 1.25rem;
   position: relative;
-  top: -30px; 
+  top: -13px; 
 }
 
-
 .info-text p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #563731;
   max-width: 17.5rem;
   font-family: "Roboto", sans-serif;
   padding: 0 2.5rem 0 1.25rem;
-  text-align-last: center;
+  text-align: end;
   position: relative;
-  top: -25px; 
+  top: -1px; 
 }
 
 /*  both pies */
@@ -696,29 +690,42 @@ overlay .five-stars {
 }
 
 
-
-.french-info .info-text {
-  padding-left: 3rem;
-  padding-right: 0;
-}
-
 .order-btn2 {
   background: #F1B102;
   color: #563731;
+  text-decoration: none;
   border: none;
-  border-radius: 20px;
-  padding: 10px 24px;
-  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 8.5px 16px;
+  font-size: 13px;
   cursor: pointer;
   margin-top: 10px;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: scale(1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  margin-top: 15px;  
+  font-weight: bolder;
+ 
+}
+.left-btn {
+  align-self: flex-start;  
+  margin-right: auto;       
+  margin-left: 75px;           
+}
+
+
+.right-btn {
+  align-self: flex-end;     
+  margin-left: auto;        
+  margin-right: 75px;
 }
 
 .order-btn2:hover {
-  background: #ffb800;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  background-color: #BE670C;
+  color: #FFF4E4;
+  transform: scale(1.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 /* --- Hover Behavior --- */
