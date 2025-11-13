@@ -395,14 +395,14 @@ overlay {
     background-color: #FFF4E4;
     position: relative;
     padding:170px 170px 700px 170px;;
-    margin-top: 50vh;
+    margin-top: 0vh;
 }
 
 overlay .FOOD-LOVERS {
     display:flex;
     position:absolute;
-    left: 9%;
-    top: 9%;
+    left: 9.1%;
+    top: 9.5%;
     color: #FFBB00;
     font-family: "Agdasima", sans-serif;
     font-weight:bold;
@@ -418,52 +418,47 @@ overlay #Satisfied {
     color: #563731;
     font-family: "Agdasima", sans-serif;
     font-weight:bold;
-    font-size: 44px;
-    line-height: 0.8;
+    font-size: 50px;
+    line-height: 0.9;
 
 }
 
  overlay .name-feed {
-
-    
     position: absolute;
-    right: 37%;
-    top: 24.5%;
+    right: 33%;
+    top: 25%;
     transform: rotate(90deg) translateX(50%);
     transform-origin: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: "Agdasima", sans-serif;
     font-weight: bold;
     color: #FFBB00;
     white-space: nowrap;
     margin: 0;
-   
 }
 
 overlay .name-feed1 {
     position: absolute;
     right: 54%;
-    top: 79%;
+    top: 67%;
     transform: rotate(-90deg) translateX(50%);
     transform-origin: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: "Agdasima", sans-serif;
     font-weight: bold;
     color: #FFBB00;
     white-space: nowrap;
     margin: 0;
-
 }
 
 overlay .Line {
-
     display:flex;
     position: absolute;
     background-color:#A75D2D;
     width: 1px;
-    height: 200px;
-    right: 47%;
-    top: 25%;
+    height: 175px;
+    right: 42%;
+    top: 26%;
 }
 
 overlay .Line1{
@@ -472,34 +467,34 @@ overlay .Line1{
     position: absolute;
     background-color:#A75D2D;
     width: 1px;
-    height: 200px;
+    height: 175px;
     right: 57.5%;
-    top: 59%;
+    top: 50%;
 
 }
 
 overlay .DESC  {
-
+  
     display:flex;
     position:absolute;
-    left: 28%;
+    left: 34%;
     right: auto;
-    top: 27%;
+    top: 28%;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
     text-align: right;
 }
 
 overlay .DESC1 {
     display:flex;
     position:absolute;
-    left: 46%;
+    left: 45.3%;
     right: auto;
-    top: 61%;
+    top: 53%;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -509,13 +504,13 @@ overlay .five-stars {
     position:absolute;
     background-color:#FFC013;
     max-width: 500px;
-    border-radius:15px;
+    border-radius:18px;
     top: 40%;
-    right: 50%;
-    padding-left:1.5vh;
-    padding-right:1.5vh;
-    padding-top:0.5vh;
-    padding-bottom: 1vh;
+    right: 44.9%;
+    padding-left:2.5vh;
+    padding-right:2.5vh;
+    padding-top:0.6vh;
+    padding-bottom: 1.2vh;
 
 }
 
@@ -525,13 +520,13 @@ overlay .five-stars1 {
     position:absolute;
     background-color:#FFC013;
     max-width: 500px;
-    border-radius:15px;
-    top: 74%;
-    right: 48%;
-    padding-left:1.5vh;
-    padding-right:1.5vh;
-    padding-top:0.5vh;
-    padding-bottom: 1vh;
+    border-radius:18px;
+    top: 65.2%;
+    right: 47.2%;
+    padding-left:2.5vh;
+    padding-right:2.5vh;
+    padding-top:0.6vh;
+    padding-bottom: 1.2vh;
 
 }
 
@@ -543,9 +538,9 @@ overlay .five-stars1 {
     display:flex;   
     flex-wrap: wrap;
     position: relative;
-    width: 179.90px;
+    width: 150px;
     max-width: 500px; 
-    height: 217.29px;
+    height: 180px;
     background-size: cover;
     overflow: hidden;
     background-image: url('images/pie-coffee.jpg');
@@ -561,7 +556,7 @@ overlay .five-stars1 {
     transform: rotate(-3deg) scale(1);
     z-index: 2;
     position: absolute;
-    left: 65%;
+    left: 67%;
     top: 25%; 
     background-position: 40% 45%; 
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
@@ -575,41 +570,39 @@ overlay .five-stars1 {
 
 .overlay-container2 {
     position:absolute;
-    left: 71%;
+    left: 72%;
     top: 25%;
-    transform: rotate(15deg);
+    transform: rotate(10deg);
     z-index: 1;
-    background-image: url('images/french-sliced.jpg');
+    background-image: url('images/fback1.jpg');
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
 .overlay-container2:hover{
-
     transform: translateY(-15px) scale(1.10);
     z-index: 2;
 }
 
 .overlay-container3 {
-
    display:flex;   
     flex-wrap: wrap;
     position: relative;
-    width: 179.90px;
+    width: 150px;
     max-width: 500px; 
-    height: 217.29px;
+    height: 180px;
     background-size: cover;
     overflow: hidden;
-    background-image: url('images/pie-coffee.jpg');
+    background-image: url('images/fback3.jpg');
     border: 10px solid #FFDCAA;
     border-bottom: 30px solid #FFDCAA;
     margin-right: 100px;
     transform: rotate(-3deg) scale(1);
     z-index: 2;
     position: absolute;
-    left: 12%;
-    top: 55%; 
+    left: 15%;
+    top: 50%; 
     background-position: 40% 45%; 
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -623,21 +616,20 @@ overlay .five-stars1 {
     display:flex;   
     flex-wrap: wrap;
     position: relative;
-    width: 179.90px;
+    width: 150px;
     max-width: 500px; 
-    height: 217.29px;
+    height: 180px;
     background-size: cover;
     overflow: hidden;
-    background-image: url('images/pie-coffee.jpg');
+    background-image: url('images/fback2.jpg');
     border: 10px solid #FFDCAA;
     border-bottom: 30px solid #FFDCAA;
     margin-right: 100px;
     position:absolute;
-    left: 18%;
-    top: 55%;
-    transform: rotate(15deg);
+    left: 22%;
+    top: 50%;
+    transform: rotate(10deg);
     z-index: 1;
-    background-image: url('images/french-sliced.jpg');
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -648,30 +640,25 @@ overlay .five-stars1 {
     z-index: 2;
 }
 
-footer {
 
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 100px;
     max-width: 100%;
-    margin: 0 auto;
     background-color: #F1B102;
     position: relative;
-    padding:170px 170px 700px 170px;;
-    margin-top: -8vh;
+    margin-top: -26vh;
     border-radius: 50% 50% 0 0 / 50px 50px 0 0;
-    padding: 60px 40px 40px;
-    
+    padding: 60px 40px 0;
 }
-
-
 
 .footer-info {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px 100px;
+  padding: 40px 20px;
   max-width: 100%;
   position:relative;
   gap: 100px;
@@ -680,9 +667,7 @@ footer {
 
 .footer-column {
   flex: 1;
-  margin-top: 8vh;
-  
-
+  margin-top: 5vh;
 }
 
 .footer-column h3 {
@@ -690,7 +675,7 @@ footer {
   font-size: 20px;
   color: #563731;
   margin-bottom: 18px;
-  letter-spacing: 1px;
+
 }
 
 .footer-column p {
@@ -743,13 +728,13 @@ footer {
 
 .footer-bottom-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
   position:absolute;
   top: 75%;
+
 }
 
 .footer-bottom {
@@ -1104,13 +1089,12 @@ footer {
 }
 
 .signature h2 {
-  font-size: 9.375rem; /* 150px */
+  font-size: 12.5rem; /* 150px */
   font-weight: 600;
   font-family: 'Agdasima', sans-serif;
   color: #fff4e4;
-  letter-spacing: 0.75rem; /* 12px */
   text-transform: uppercase;
-  bottom: -3.75rem; /* -60px */
+  bottom: 1.5rem; /* -60px */
   padding: 0;
   position: relative;
   z-index: 1;
@@ -1126,18 +1110,20 @@ footer {
 }
 
 .view-menu-btn {
+  font-family: 'Agdasima', sans-serif;
   position: absolute;
   left: 50%;
-  top: 20vh;
+  top: 5vh;
   transform: translate(-50%, -50%);
   background: #F1B102;
   color: #563731;
   border: none;
   border-radius: 50%;
-  width: 6.25rem; /* 100px */
-  height: 6.25rem;
+  width: 8.5rem; /* 100px */
+  height: 8.5rem;
   font-weight: 700;
-  font-size: 1.25rem; /* 20px */
+  font-size: 2rem; /* 20px */
+  line-height: 1;
   cursor: pointer;
   box-shadow: 0 0.375rem 0.75rem rgba(0,0,0,0.2); /* 0 6px 12px */
   transition: all 0.3s ease;
