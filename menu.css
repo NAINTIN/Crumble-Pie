@@ -184,16 +184,16 @@ body{
 
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-left:1%;
+    margin-left:-5%;
     padding: 20px;
-    gap: 27px;
+    gap: 130px;
     
 }
 
 .photo-pies .photo1 img {
   
   margin-left: 60%;
-  width: 70%;
+  width: 105%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
   border-radius: 5px;
@@ -214,89 +214,99 @@ body{
 
 .photo1  p {
 
-    margin-left:73%;
+    margin-left:90%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
 }
 
 .photo1 .price {
 
-    margin-left:73%;
+    margin-left:100%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
+    font-weight: bold;
 }
 
 .photo2 p {
 
-    margin-left:20%;
+    margin-left:55%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
 }
 
 .photo2 .price {
 
-    margin-left:20%;
+    margin-left:61%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
+    font-weight: bold;
 }
 
 .photo3 p {
 
-    margin-left:-40%;
+    margin-left:2%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
+    
 }
 
 .photo3 .price {
 
-    margin-left:-40%;
+    margin-left:2%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
+    font-weight: bold;
 }
 
 .photo4 p {
 
-    margin-left:-100%;
+    margin-left:-55%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
+    
 }
 
 .photo4 .price {
 
-    margin-left:-100%;
+    margin-left:-55%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
+    font-weight: bold;
 }
 
 
 .photo-pies .photo2 img {
   
   
-  width: 70%;
+  width: 105%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
   margin-left: 30%;
@@ -306,7 +316,7 @@ body{
 .photo-pies .photo3 img {
   
   
-  width: 70%;
+  width: 105%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
   border-radius: 5px;
@@ -316,7 +326,7 @@ body{
 .photo-pies .photo4 img {
     
  margin-left: -30%;
-  width: 70%;
+  width: 105%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
   border-radius: 5px;
@@ -331,6 +341,7 @@ body{
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
+    margin-top: 3%;
     
 }
 
@@ -376,79 +387,80 @@ body{
 
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-left:3%;
+    margin-left:-3%;
     padding: 20px;
-    gap: 50px;
+    gap: 100px;
 }
 
 .photo-tarts .tart1 img {
   
   margin-left: 57%;
-  width: 80%;
+  width: 95%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
-  clip-path: inset(0 15% 0 15%);
-  border-radius: 65px;
+  clip-path: inset(0 15% 0 15% round 5px);
 }
 
 .photo-tarts .tart2 img {
   
   margin-left: 8%;
-  width: 80%;
+  width: 95%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
-  clip-path: inset(0 15% 0 15%);
-  border-radius: 65px;
+   clip-path: inset(0 15% 0 15% round 5px);
 }
 
 .photo-tarts .tart3 img {
   
   margin-left: -41%;
-  width: 80%;
+  width: 95%;
   height: auto;      /* optional */
   object-fit: cover;  /* makes the image crop nicely */
-  clip-path: inset(0 15% 0 15%);
-  border-radius: 65px;
+  clip-path: inset(0 15% 0 15% round 5px);
 }
 
 .tart1  p {
 
-    margin-left:85%;
+    margin-left:95%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
 }
 
 .tart2  p {
 
-    margin-left:-11%;
+    margin-left:10%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
 }
 
 .tart3  p {
 
-    margin-left:-105%;
+    margin-left:-90%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
+    font-size: 18px;
 }
 
 .price-options {
     display: flex;
     background-color: #FFF4E4;
-    border: 2px solid #F4A700;
-    border-radius: 25px;
+    border: 1px solid #F4A700;
+    border-radius: 10px;
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
+    margin-top: 3%;
 }
 
 .price-btn {
@@ -460,6 +472,7 @@ body{
     padding: 15px 40px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
 
 .price-btn:first-child {
