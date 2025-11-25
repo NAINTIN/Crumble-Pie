@@ -275,22 +275,6 @@ body{
   box-shadow: 0 5px 10px rgba(0,0,0,0.20);
 }
 
-.contact-btn {
-  font-family: 'Tauri', sans-serif;
-  background-color: #FFC013;
-  color: #563731;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 15px;
-  transition: background 0.3s;
-}
-
-.contact-btn:hover {
-  background-color: #e4a100;
-}
-
 .pie-container {
     position: relative;
     width: 100%;
@@ -477,7 +461,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 120px;
+  padding: 100px 100px;
   background-color: #fff4e4;
   color: #3a2a1a;
   overflow: visible;
@@ -489,7 +473,7 @@ body{
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 179px;
+  font-size: 160px;
   color: #FFC013;
   font-family: 'Agdasima', sans-serif;
   letter-spacing: -0.5px;
@@ -508,7 +492,7 @@ body{
 }
 
 .story-image img {
-  width: 482px;
+  width: 450px;
   height: auto;
   border-radius: 50%;
   margin-right: 60px;
@@ -524,7 +508,7 @@ body{
 
 .story-text h4 {
   font-family: 'Agdasima', sans-serif;
-  font-size: 29px;
+  font-size: 27px;
   color: #563731;
   margin-bottom: -1px;
   display: flex;
@@ -536,15 +520,15 @@ body{
 
 .story-text .line {
   display: inline-block;
-  width: 54px;
-  height: 3.5px;
+  width: 50px;
+  height: 2.9px;
   background-color: #563731;
   margin-right: 6px;
   margin-top: -1px;
 }
 
 .story-text h1 {
-  font-size: 67.5px;
+  font-size: 65px;
   color: #FFC013;
   margin-bottom: 1.3px;
   font-family: 'Agdasima', sans-serif;
@@ -559,7 +543,26 @@ body{
   margin-bottom: 15px;
 }
 
+.contact-btn {
+  font-family: 'Tauri', sans-serif;
+  background-color: #FFC013;
+  color: #563731;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
 
+.contact-btn:hover {
+  background-color: #FFC013;
+  color: #563731;
+  transform: scale(1.03); 
+}
+
+/*FEEDBACK*/
 #CONTACT a {    
     background-color: #ffc645;
     padding-inline: 15px;
