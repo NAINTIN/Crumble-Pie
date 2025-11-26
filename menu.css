@@ -144,9 +144,7 @@ body{
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-
 .title {
-
     display:flex;
     align-items: center;
     justify-content: center;
@@ -155,7 +153,7 @@ body{
 .title h1 {
       margin: 0;
       font-family: Arial, sans-serif;
-      font-size: 55px;
+      font-size: 68px;
       margin-top: 3%;
       font-family: 'Agdasima', sans-serif;
       color: #563731;
@@ -163,7 +161,6 @@ body{
     }
 
 .title1 {
-
     display:flex;
     align-items: center;
     justify-content: center;
@@ -177,27 +174,47 @@ body{
       font-family: 'Agdasima', sans-serif;
       color: #563731;
       padding-bottom: 10px;
-    }
+}
 
 
 .photo-pies {
-
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-left:-5%;
     padding: 20px;
-    gap: 130px;
-    
+    gap: 115px;
 }
 
 .photo-pies .photo1 img {
-  
-  margin-left: 60%;
+  margin-left: 55%;
   width: 105%;
-  height: auto;      /* optional */
-  object-fit: cover;  /* makes the image crop nicely */
+  height: auto;      
+  object-fit: cover; 
   border-radius: 5px;
+}
 
+.photo-pies .photo2 img {
+  width: 105%;
+  height: auto;     
+  object-fit: cover;  
+  margin-left: 26%;
+  border-radius: 5px;
+}
+
+.photo-pies .photo3 img {
+  width: 105%;
+  height: auto;   
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: -3%;
+}
+
+.photo-pies .photo4 img {
+  margin-left: -32%;
+  width: 105%;
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 5px;
 }
 
 .photo1 img:hover,
@@ -208,60 +225,57 @@ body{
 .tart2 img:hover,
 .tart3 img:hover {
     opacity: 0.7;
-    transform: scale(1.1);
-    transition: all 0.3s ease;
+    transform: scale(1.02);
+    transition: all 0.4s ease;
 }
 
 .photo1  p {
-
-    margin-left:90%;
+    margin-left: 84%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:7.5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
     font-size: 18px;
 }
 
 .photo1 .price {
-
-    margin-left:100%;
+    margin-left: 98%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:3.5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
     font-weight: bold;
+    font-size: 17px;
 }
 
 .photo2 p {
-
-    margin-left:55%;
+    margin-left:50%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:7.5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
     font-size: 18px;
 }
 
 .photo2 .price {
-
     margin-left:61%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:3.5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
     font-weight: bold;
+    font-size: 17px;
 }
 
 .photo3 p {
-
-    margin-left:2%;
+    margin-left:0%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:7.5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
     font-size: 18px;
@@ -269,37 +283,35 @@ body{
 }
 
 .photo3 .price {
-
-    margin-left:2%;
+    margin-left:0%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:3.5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
     font-weight: bold;
+    font-size: 17px;
 }
 
 .photo4 p {
-
-    margin-left:-55%;
+    margin-left:-58%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:7.5%;
     font-family: 'Tauri', sans-serif;
     color: #6F5025;
     font-size: 18px;
-    
 }
 
 .photo4 .price {
-
-    margin-left:-55%;
+    margin-left:-57%;
     text-align: center;
     text-wrap: nowrap;
-    margin-top:5%;
+    margin-top:3.5%;
     font-family: 'Tauri', sans-serif;
     color: #F4A700;
     font-weight: bold;
+    font-size: 17px;
 }
 
 
@@ -341,8 +353,7 @@ body{
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
-    margin-top: 3%;
-    
+    margin-top: 2%;
 }
 
 .sugar-btn {
@@ -367,7 +378,6 @@ body{
 
 
 .title2 {
-
     display:flex;
     align-items: center;
     justify-content: center;
@@ -376,24 +386,22 @@ body{
 .title2 h1 {
       margin: 0;
       font-family: Arial, sans-serif;
-      font-size: 55px;
+      font-size: 68px;
       margin-top: 6%;
       font-family: 'Agdasima', sans-serif;
       color: #563731;
-      padding-bottom: 10px;
-    }
+      padding-bottom: 8px;
+}
 
 .photo-tarts {
-
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-left:-3%;
     padding: 20px;
-    gap: 100px;
+    gap: 90px;
 }
 
 .photo-tarts .tart1 img {
-  
   margin-left: 57%;
   width: 95%;
   height: auto;     
@@ -402,7 +410,6 @@ body{
 }
 
 .photo-tarts .tart2 img {
-  
   margin-left: 8%;
   width: 95%;
   height: auto;      
@@ -411,7 +418,6 @@ body{
 }
 
 .photo-tarts .tart3 img {
-  
   margin-left: -41%;
   width: 95%;
   height: auto;     
@@ -420,8 +426,7 @@ body{
 }
 
 .tart1  p {
-
-    margin-left:95%;
+    margin-left:93%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
@@ -432,7 +437,7 @@ body{
 
 .tart2  p {
 
-    margin-left:10%;
+    margin-left:15%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
@@ -443,7 +448,7 @@ body{
 
 .tart3  p {
 
-    margin-left:-90%;
+    margin-left:-86%;
     text-align: center;
     text-wrap: nowrap;
     margin-top:5%;
@@ -460,7 +465,7 @@ body{
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .price-btn {
@@ -476,7 +481,7 @@ body{
 }
 
 .price-btn:first-child {
-    border-right: 2px solid #F4A700;
+    border-right: 1px solid #F4A700;
 }
 
 .price-btn:hover {
@@ -497,7 +502,7 @@ footer {
     height: 260px;
     background-color: #F1B102;
     position: relative;
-    margin-top: 30vh;
+    margin-top: 20vh;
     border-radius: 50% 50% 0 0;
     padding: 55px 45px 0;
     left: -15.5vw;
@@ -588,7 +593,7 @@ footer {
 
 .footer-links {
   display: flex;      
-  gap: 50px;           
+  gap: 56px;           
 }
 
 .footer-links a {

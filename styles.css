@@ -217,7 +217,7 @@ body{
   border-radius: 0 0 85px 85px;
   background: #FFBB00;
   position: absolute;
-  top: 128.6%;         
+  top: 136.5%;         
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;       
@@ -226,7 +226,7 @@ body{
 
 .arrow-circle {
   position: absolute;
-  top: 112%;
+  top: 119%;
   left: 50%;
   transform: translateX(-50%);
   width: 40px;
@@ -246,7 +246,7 @@ body{
 .order-now-btn {
   font-family: 'Agdasima', sans-serif;
   position: absolute;
-  top: 128%;
+  top: 136%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -373,7 +373,10 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+<<<<<<< HEAD
     box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+=======
+>>>>>>> e607005 (Finalizing)
 }
 
 .tagline {
@@ -468,6 +471,19 @@ body{
   gap: 40px;
 }
 
+<<<<<<< HEAD
+=======
+.menu-line{
+  position: absolute;
+  width: 100%;
+  height: 0.1px;
+  background-color: #FFC013;
+  top: 0%;
+}
+
+
+/* BACKGROUND TEXT "DELICIOUS" */
+>>>>>>> e607005 (Finalizing)
 .background-text {
   position: absolute;
   left: -30px;
@@ -494,7 +510,7 @@ body{
 .story-image img {
   width: 450px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-right: 60px;
 }
 
@@ -920,7 +936,7 @@ footer {
 
 .footer-links {
   display: flex;      
-  gap: 50px;           
+  gap: 56px;           
 }
 
 .footer-links a {

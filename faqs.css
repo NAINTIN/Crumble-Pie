@@ -157,7 +157,11 @@ body {
 
 .faq-title {
     text-align: center;
+<<<<<<< HEAD
     font-size: 71px; 
+=======
+    font-size: 68px; /* keep font size */
+>>>>>>> e607005 (Finalizing)
     color: #563731;
     font-family: "Agdasima", sans-serif;
     margin: 40px 0 42px 0;
@@ -397,7 +401,7 @@ footer {
 
 .footer-links {
   display: flex;      
-  gap: 50px;           
+  gap: 56px;           
 }
 
 .footer-links a {
