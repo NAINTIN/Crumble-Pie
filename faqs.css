@@ -227,10 +227,14 @@ summary::-webkit-details-marker {
     display: inline-block;
     transform: rotate(45deg);
     transition: 0.3s;
+    margin-bottom: 10%;
+    margin-left: -1.5%;
 }
 
 .faq-item[open] .dropdownicon::before {
     transform: rotate(-135deg);
+    margin-top: 20%;
+    margin-left: -2%;
 }
 
 .answer {
