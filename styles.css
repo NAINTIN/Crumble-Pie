@@ -449,7 +449,7 @@ body{
 }
 
 .divider {
-  width: 1.8px;
+  width: 1.35px;
   height: 100px;
   background: #c7a86a;
 }
@@ -624,7 +624,7 @@ overlay #Satisfied {
 
  overlay .name-feed {
     position: absolute;
-    left:54%;
+    right: 33.5%;
     top: 25%;
     transform: rotate(90deg) translateX(50%);
     transform-origin: center;
@@ -638,7 +638,7 @@ overlay #Satisfied {
 
 overlay .name-feed1 {
     position: absolute;
-    right: 54%;
+    right: 53.7%;
     top: 67%;
     transform: rotate(-90deg) translateX(50%);
     transform-origin: center;
