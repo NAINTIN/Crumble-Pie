@@ -188,11 +188,12 @@ body{
 
 .contact-title {   
     position: relative;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     color: #563731; 
     font-family: 'Agdasima', sans-serif;
-    right:10%;
+    right:0%;
+    padding-bottom: 7%;
 }
 
 .contact-title span {
@@ -267,18 +268,15 @@ body{
 
 .contact-img {
     width: 300px;           
-    height: auto;
-    margin-top: -10px;        
+    height: 300px;
 }
 
 .social-icons1 a {
-
-
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45px;
-  height: 45px;
+  width: 100px;
+  height: 100px;
   background-color: white;
   border-radius: 50%;
   color: #563731;
@@ -288,11 +286,10 @@ body{
 }
 
 .social-icons1 {
-
   display: flex;
-  gap: 30px;
-  margin-left: 45%;
-  margin-top: 5%;
+  gap: 0px;
+  margin-left: 40%;
+  margin-top: 4%;
 }
 
 footer {
